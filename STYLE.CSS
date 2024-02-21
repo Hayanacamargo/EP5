@@ -1,0 +1,21 @@
+:root{
+    --cor_botao_clicado:red;
+    --cor_botao_n_clic:yellow;
+    --cor_fundo:blue;
+    --cor_titulo:green;
+    
+}
+body{
+    background-color: var(--cor_fundo);
+
+}
+h1{
+    color:var(--cor_titulo)
+}
+.principal{
+    border: solid yellowgreen 2px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
