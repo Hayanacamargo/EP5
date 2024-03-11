@@ -9,27 +9,35 @@ body{
     background-color: var(--cor_fundo);
 }
  
-h1{
+h2{
     color:var(--cor_titulo)
  
 }
 .principal{
-    border: yellowgreen 2px solid;
-    text-align: center;
-    height: 500px;
- 
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-h3{
-    font-size: 30px;/* mudar o tamanho das letras */
-    background-color: rgb(135, 230, 126);
-    border-radius: 150px;
-    justify-content: center;/* arrumar a posicao da imagem */
-    align-items: center;/* arrumar a posicao da imagem */
-    display: flex;/* arrumar a posicao da imagem */
-    flex-wrap: wrap;/* arrumar a posicao da imagem */  
+.botao{
+    background-color: var(--cor_botao_n_clic);
+    display: flex;
+    justify-content: center;
+    padding: 1mm;
+    font-size:18px ;
+    align-items: center;
+    width: 100px;
+    border-bottom: 4px solid var(--cor_botao_fundo);
+    border-left: 4px solid var(--cor_botao_fundo);
+    border-right: 4px solid var(--cor_botao_fundo);
+    border-top: none;
+    
 }
+.acionado{
+    
 
 
-  
-
-
+}
